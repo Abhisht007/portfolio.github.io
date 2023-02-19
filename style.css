@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+.sidebar{
+    background-color: rgb(30, 30, 30);
+    
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sidebar nav{
+      padding: 48px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 25px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sidebar nav li a:hover{
+    color: rgb(179, 179, 179);
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 20px;
+}
+
+.container{
+     display: flex;
+}
+.infoContainer{
+    /* background-color: brown; */
+    height: 58vh;
+    width: 83vw;
+    margin: 82px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hello{
+   font-size: 45px;
+   
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+.buttons button{
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+    background-color: #212222;
+    font-weight: bold;
+    margin: 7px 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: #ffffff;
+    color: #212222;
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.contactform {
+    padding: 0 35px;
+    padding-top: 120px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contactform h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+}
+
+.contactform form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btnbtn-primary{
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+    background-color: #212222;
+    font-weight: bold;
+    margin: 7px 3px;
+    cursor: pointer;
+
+}
+.btnbtn-primary:hover{
+    background-color: #ffffff;
+    color: #212222;
+}
+
+
+#emailHelp {
+    font-size: 24px;
+    font-weight: bold
+}
+#isclient{
+    width: 14px;
+}
+
+#clientemail{
+    width: 30vw;
+    border-radius: 6px;
+    margin: 2px 0px;
+    padding: 2px;
+}
+#clientphone{
+    width: 30vw;
+    border-radius: 6px;
+    margin: 2px 0px;
+    padding: 2px;
+}
+#clientname{
+    width: 30vw;
+    border-radius: 6px;
+    margin: 2px 0px;
+    padding: 2px;
+}
+
+.blogItem{
+   margin: 20px;
+   font-family: 'Source Sans Pro', sans-serif;
+ }   
+
+.blogContainer h1{ 
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+ }  
+
+.blogItem p{  
+    font-family: 'Oswald', sans-serif;
+
+}
+.introh2{
+    font-family: 'Oswald', sans-serif;
+    margin:  10px;
+}
+
+.into p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+}
+
+.skillContainer{
+    padding:  12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+
+.skill{
+    width: 250px;
+    height: 6px;
+    background-color: #212222;
+    border: none;
+    border-radius: 2px;
+}
+
+.hundered{
+    width:350px;
+}
+
+.fifty{
+    width: 175px;
+}
+
+.t5{
+    width: 87px; ;
+}
+
+.sidebarGo{
+    transform: translate(-250px, 0px);
+    position: absolute;
+  } 
+.hamburger{
+    
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+ margin-left: 134px;
+}
+
+@media (max-width: 1350px){
+  *{ 
+    /*  background-color: rgb(255, 122, 122); */
+  }
+
+  /* .sidebar{
+    transform: translate(-250px, 0px);
+    position: absolute;
+  } */
+}
